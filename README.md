@@ -117,7 +117,7 @@ service kolabd restart
 ```
 
 ## Change sender addresses and storage limit
-By default, the sender addresses will be something like user@host.mydomain.tld.
+By default, the sender addresses of outgoing mails might include the subdomain like user@host.mydomain.tld.
 You probably want to change this to user@mydomain.tld. This can be achieved by
 uncommenting the following line in `/etc/postfix/main.cf`:
 ```
